@@ -1,0 +1,8 @@
+@echo off
+setlocal enabledelayedexpansion
+set i=1
+for %%f in (*.*) do (
+    set "num=00!i!"
+    ren "%%f" "!num:~-3!_%%f"
+    set /a i+=1
+)
