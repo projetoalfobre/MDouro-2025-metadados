@@ -1,0 +1,20 @@
+Prefix
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+
+<record>
+{{forNonBlank(cells["dc:Identifier"], v, "<dc:identifier>"+v.value+"</dc:identifier>", "")}}
+{{forNonBlank(cells["dc:Title"], v, "<dc:title>"+v.value+"</dc:title>", "")}}
+{{forNonBlank(cells["dc:Creator"], v, "<dc:creator>"+v.value+"</dc:creator>", "")}}
+{{forNonBlank(cells["dc:Subject"], v, "<dc:subject>"+v.value+"</dc:subject>", "")}}
+{{forNonBlank(cells["dc:Language"], v, "<dc:language>"+v.value+"</dc:language>", "")}}
+{{forNonBlank(cells["dc:Relation"], v, "<dc:relation>"+v.value+"</dc:relation>", "")}}
+{{forNonBlank(cells["dc:Coverage"], v, "<dc:coverage>"+v.value+"</dc:coverage>", "")}}
+{{forNonBlank(cells["dc:Rights"], v, "<dc:rights>"+v.value+"</dc:rights>", "")}}
+</record>
+
+
+Suffix
+
+</metadata>
+
