@@ -1,0 +1,15 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/">
+  <edm:ProvidedCHO rdf:about="[URI_do_objeto]">
+    <dc:title>Exemplo de Obra</dc:title>
+    <dc:creator>Criador da Obra</dc:creator>
+    <dc:type>IMAGE</dc:type>
+  </edm:ProvidedCHO>
+  <edm:WebResource rdf:about="[URL_da_imagem]">
+    <edm:rights>http://creativecommons.org/licenses/by/4.0/</edm:rights>
+  </edm:WebResource>
+  <ore:Aggregation rdf:about="[URI_agregação]">
+    <edm:aggregatedCHO rdf:resource="[URI_do_objeto]"/>
+    <edm:dataProvider>Nome do Seu Museu</edm:dataProvider>
+  </ore:Aggregation>
+</rdf:RDF>

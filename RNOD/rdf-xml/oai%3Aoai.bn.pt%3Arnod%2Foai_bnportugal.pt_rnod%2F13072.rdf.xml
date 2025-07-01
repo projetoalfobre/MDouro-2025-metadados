@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+  xmlns:cc="http://creativecommons.org/ns#" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:dcterms="http://purl.org/dc/terms/" 
+  xmlns:edm="http://www.europeana.eu/schemas/edm/" 
+  xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+  xmlns:odrl="http://www.w3.org/ns/odrl/2/" 
+  xmlns:ore="http://www.openarchives.org/ore/terms/" 
+  xmlns:owl="http://www.w3.org/2002/07/owl#" 
+  xmlns:rdaGr2="http://rdvocab.info/ElementsGr2/" 
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+  xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+
+<edm:ProvidedCHO rdf:about="http://id.bnportugal.gov.pt/bib/rnod/13072">
+  <dc:title xml:lang="fre">Les enseignants: à la recherche de leur profession</dc:title>
+  <dc:creator>Nóvoa, António, 1954-</dc:creator>
+  <dc:description xml:lang="por">Monografia</dc:description>
+  <dc:description xml:lang="eng">Monographic bibliographic item</dc:description>
+  <dc:publisher>[s.n.</dc:publisher>
+  <dcterms:spatial>[s.l.]</dcterms:spatial>
+  <dc:type xml:lang="por">material textual, impresso</dc:type>
+  <dc:type xml:lang="eng">language materials, printed</dc:type>
+  <dc:format xml:lang="por">p.35-43</dc:format>
+  <dcterms:extent xml:lang="por">25cm</dcterms:extent>
+  <dc:language>fre</dc:language>
+  <edm:type>TEXT</edm:type>
+  <dcterms:issued>    </dcterms:issued>
+</edm:ProvidedCHO>
+<ore:Aggregation rdf:about="http://id.bnportugal.gov.pt/bib/rnod/13072#aggregation">
+  <edm:aggregatedCHO rdf:resource="http://id.bnportugal.gov.pt/bib/rnod/13072"/>
+  <edm:dataProvider>Universidade de Lisboa</edm:dataProvider>
+  <edm:provider>RNOD-Portugal</edm:provider>
+  <edm:isShownAt rdf:resource="http://repositorio.ul.pt/handle/10451/678"/>
+  <edm:hasView rdf:resource="http://catalogo.ul.pt/F/?func=item-global&amp;doc_library=ULB01&amp;type=03&amp;doc_number=000147974"/>
+  <edm:object rdf:resource="http://catalogo.ul.pt/sibul/images/thumbrnod.gif"/>
+  <edm:rights rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+</ore:Aggregation>
+</rdf:RDF>

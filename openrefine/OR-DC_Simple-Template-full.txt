@@ -1,0 +1,37 @@
+Prefixo
+
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd">
+
+
+--//--
+
+Template da linha
+
+<dc:record>
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/title"], v, "<dc:title>"+v.value+"</dc:title>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/creator"], v, "<dc:creator>"+v.value+"</dc:creator>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/date"], v, "<dc:date>"+v.value+"</dc:date>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/type"], v, "<dc:type>"+v.value+"</dc:type>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/source"], v, "<dc:source>"+v.value+"</dc:source>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/identifier"], v, "<dc:identifier>"+v.value+"</dc:identifier>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/rights"], v, "<dc:rights>"+v.value+"</dc:rights>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/subject"], v, "<dc:subject>"+v.value+"</dc:subject>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/language"], v, "<dc:language>"+v.value+"</dc:language>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/format"], v, "<dc:format>"+v.value+"</dc:format>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/contributor"], v, "<dc:contributor>"+v.value+"</dc:contributor>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/description"], v, "<dc:description>"+v.value+"</dc:description>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/publisher"], v, "<dc:publisher>"+v.value+"</dc:publisher>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/coverage"], v, "<dc:coverage>"+v.value+"</dc:coverage>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/elements/1.1/relation"], v, "<dc:relation>"+v.value+"</dc:relation>", "")}} 
+</dc:record>
+
+--//--
+
+Sufixo
+
+</metadata>
+

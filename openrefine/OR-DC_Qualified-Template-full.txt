@@ -1,0 +1,83 @@
+Prefixo
+
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xsi:schemaLocation="
+            http://purl.org/dc/elements/1.1/ 
+            http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd
+            http://purl.org/dc/terms/
+            http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd">
+
+--//--
+
+Template da linha
+ 
+ <dc:record>
+{{forNonBlank(cells["http://purl.org/dc/terms/title"], v, "<dcterms:title>"+v.value+"</dcterms:title>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/alternative"], v, "<dcterms:alternative>"+v.value+"</dcterms:alternative>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/creator"], v, "<dcterms:creator>"+v.value+"</dcterms:creator>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/subject"], v, "<dcterms:subject>"+v.value+"</dcterms:subject>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/description"], v, "<dcterms:description>"+v.value+"</dcterms:description>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/tableOfContents"], v, "<dcterms:tableOfContents>"+v.value+"</dcterms:tableOfContents>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/abstract"], v, "<dcterms:abstract>"+v.value+"</dcterms:abstract>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/publisher"], v, "<dcterms:publisher>"+v.value+"</dcterms:publisher>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/contributor"], v, "<dcterms:contributor>"+v.value+"</dcterms:contributor>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/date"], v, "<dcterms:date>"+v.value+"</dcterms:date>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/dateAccepted"], v, "<dcterms:dateAccepted>"+v.value+"</dcterms:dateAccepted>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/dateCopyrighted"], v, "<dcterms:dateCopyrighted>"+v.value+"</dcterms:dateCopyrighted>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/dateSubmitted"], v, "<dcterms:dateSubmitted>"+v.value+"</dcterms:dateSubmitted>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/available"], v, "<dcterms:available>"+v.value+"</dcterms:available>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/created"], v, "<dcterms:created>"+v.value+"</dcterms:created>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/issued"], v, "<dcterms:issued>"+v.value+"</dcterms:issued>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/modified"], v, "<dcterms:modified>"+v.value+"</dcterms:modified>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/valid"], v, "<dcterms:valid>"+v.value+"</dcterms:valid>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/type"], v, "<dcterms:type>"+v.value+"</dcterms:type>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/format"], v, "<dcterms:format>"+v.value+"</dcterms:format>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/extent"], v, "<dcterms:extent>"+v.value+"</dcterms:extent>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/medium"], v, "<dcterms:medium>"+v.value+"</dcterms:medium>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/identifier"], v, "<dcterms:identifier>"+v.value+"</dcterms:identifier>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/bibliographicCitation"], v, "<dcterms:bibliographicCitation>"+v.value+"</dcterms:bibliographicCitation>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/source"], v, "<dcterms:source>"+v.value+"</dcterms:source>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/language"], v, "<dcterms:language>"+v.value+"</dcterms:language>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/relation"], v, "<dcterms:relation>"+v.value+"</dcterms:relation>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/isFormatOf"], v, "<dcterms:isFormatOf>"+v.value+"</dcterms:isFormatOf>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/isPartOf"], v, "<dcterms:isPartOf>"+v.value+"</dcterms:isPartOf>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/isReferencedBy"], v, "<dcterms:isReferencedBy>"+v.value+"</dcterms:isReferencedBy>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/isReplacedBy"], v, "<dcterms:isReplacedBy>"+v.value+"</dcterms:isReplacedBy>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/isRequiredBy"], v, "<dcterms:isRequiredBy>"+v.value+"</dcterms:isRequiredBy>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/isVersionOf"], v, "<dcterms:isVersionOf>"+v.value+"</dcterms:isVersionOf>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/conformsTo"], v, "<dcterms:conformsTo>"+v.value+"</dcterms:conformsTo>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/hasFormat"], v, "<dcterms:hasFormat>"+v.value+"</dcterms:hasFormat>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/hasPart"], v, "<dcterms:hasPart>"+v.value+"</dcterms:hasPart>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/hasVersion"], v, "<dcterms:hasVersion>"+v.value+"</dcterms:hasVersion>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/references"], v, "<dcterms:references>"+v.value+"</dcterms:references>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/replaces"], v, "<dcterms:replaces>"+v.value+"</dcterms:replaces>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/requires"], v, "<dcterms:requires>"+v.value+"</dcterms:requires>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/coverage"], v, "<dcterms:coverage>"+v.value+"</dcterms:coverage>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/spatial"], v, "<dcterms:spatial>"+v.value+"</dcterms:spatial>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/temporal"], v, "<dcterms:temporal>"+v.value+"</dcterms:temporal>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/rights"], v, "<dcterms:rights>"+v.value+"</dcterms:rights>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/accessRights"], v, "<dcterms:accessRights>"+v.value+"</dcterms:accessRights>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/license"], v, "<dcterms:license>"+v.value+"</dcterms:license>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/audience"], v, "<dcterms:audience>"+v.value+"</dcterms:audience>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/educationLevel"], v, "<dcterms:educationLevel>"+v.value+"</dcterms:educationLevel>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/mediator"], v, "<dcterms:mediator>"+v.value+"</dcterms:mediator>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/provenance"], v, "<dcterms:provenance>"+v.value+"</dcterms:provenance>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/rightsHolder"], v, "<dcterms:rightsHolder>"+v.value+"</dcterms:rightsHolder>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/instructionalMethod"], v, "<dcterms:instructionalMethod>"+v.value+"</dcterms:instructionalMethod>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/accrualMethod"], v, "<dcterms:accrualMethod>"+v.value+"</dcterms:accrualMethod>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/accrualPeriodicity"], v, "<dcterms:accrualPeriodicity>"+v.value+"</dcterms:accrualPeriodicity>", "")}}
+{{forNonBlank(cells["http://purl.org/dc/terms/accrualPolicy"], v, "<dcterms:accrualPolicy>"+v.value+"</dcterms:accrualPolicy>", "")}} 
+</dc:record>
+
+
+--//--
+
+Sufixo
+
+</metadata>
+

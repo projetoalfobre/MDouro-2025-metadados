@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+  
+  <dc:title>A vida rural na Idade Média</dc:title>
+  <dc:creator>Maria Silva</dc:creator>
+  <dc:subject>História medieval</dc:subject>
+  <dc:description>Estudo sobre povoamento rural e estrutura agrária medieval em Portugal.</dc:description>
+  <dc:publisher>Universidade de Coimbra</dc:publisher>
+  <dc:contributor>João Ferreira</dc:contributor>
+  <dc:date>2021-11-10</dc:date>
+  <dc:type>Text</dc:type>
+  <dc:format>application/pdf</dc:format>
+  <dc:identifier>http://repositorio.univ.pt/handle/123456789/9876</dc:identifier>
+  <dc:source>Revista de Estudos Históricos</dc:source>
+  <dc:language>pt</dc:language>
+  <dc:relation>http://repositorio.univ.pt/handle/123456789/1234</dc:relation>
+  <dc:coverage>Beira Interior; Idade Média</dc:coverage>
+  <dc:rights>© 2021 Maria Silva. Licença CC-BY</dc:rights>
+
+</metadata>

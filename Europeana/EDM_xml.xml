@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:edm="http://www.europeana.eu/schemas/edm/"
+  xmlns:ore="http://www.openarchives.org/ore/terms/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+  <!-- Aggregation -->
+  <ore:Aggregation rdf:about="http://exemplo.org/aggregation/456">
+    <edm:aggregatedCHO rdf:resource="http://exemplo.org/cho/456"/>
+    <edm:dataProvider>Arquivo Nacional Torre do Tombo</edm:dataProvider>
+    <edm:provider>Portal História Medieval</edm:provider>
+    <edm:isShownAt rdf:resource="http://arquivotombo.pt/manuscritos/doc456"/>
+    <edm:hasView rdf:resource="http://arquivotombo.pt/files/doc456_imagem.jpg"/>
+    <edm:preview rdf:resource="http://arquivotombo.pt/files/thumbs/doc456_thumb.jpg"/>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc/4.0/"/>
+  </ore:Aggregation>
+
+  <!-- Objeto patrimonial -->
+  <edm:ProvidedCHO rdf:about="http://exemplo.org/cho/456">
+    <dc:title>Foral de Viseu</dc:title>
+    <dc:creator>Rei D. Sancho I</dc:creator>
+    <dc:date>1192</dc:date>
+    <dc:type>Text</dc:type>
+    <dc:format>Manuscrito iluminado</dc:format>
+    <dc:language>pt</dc:language>
+    <dcterms:spatial>Viseu, Portugal</dcterms:spatial>
+    <dcterms:temporal>Século XII</dcterms:temporal>
+    <dc:description>Documento régio concedendo privilégios à vila de Viseu.</dc:description>
+    <dc:identifier>http://arquivotombo.pt/doc/foral-viseu</dc:identifier>
+    <dc:rights>© Arquivo Nacional Torre do Tombo</dc:rights>
+  </edm:ProvidedCHO>
+
+  <!-- Imagem principal -->
+  <edm:WebResource rdf:about="http://arquivotombo.pt/files/doc456_imagem.jpg">
+    <dc:format>image/jpeg</dc:format>
+    <dc:rights>© Arquivo Nacional Torre do Tombo</dc:rights>
+    <dc:title>Imagem digital do Foral de Viseu</dc:title>
+  </edm:WebResource>
+
+  <!-- Miniatura (thumbnail) -->
+  <edm:WebResource rdf:about="http://arquivotombo.pt/files/thumbs/doc456_thumb.jpg">
+    <dc:format>image/jpeg</dc:format>
+    <dc:rights>© Arquivo Nacional Torre do Tombo</dc:rights>
+    <dc:title>Miniatura do Foral de Viseu</dc:title>
+  </edm:WebResource>
+
+</rdf:RDF>
+

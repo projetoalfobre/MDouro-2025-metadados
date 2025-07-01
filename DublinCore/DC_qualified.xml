@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xsi:schemaLocation="
+            http://purl.org/dc/elements/1.1/ 
+            http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd
+            http://purl.org/dc/terms/
+            http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd">
+  
+  <!-- Elementos simples -->
+  <dc:title>A vida rural na Idade Média</dc:title>
+  <dc:creator>Maria Silva</dc:creator>
+  <dc:subject>História medieval</dc:subject>
+  <dc:description>Estudo sobre povoamento rural e estrutura agrária medieval em Portugal.</dc:description>
+  <dc:publisher>Universidade de Coimbra</dc:publisher>
+  <dc:date>2021-11-10</dc:date>
+  <dc:type>Text</dc:type>
+  <dc:format>application/pdf</dc:format>
+  <dc:identifier>http://repositorio.univ.pt/handle/123456789/9876</dc:identifier>
+  <dc:language>pt</dc:language>
+
+  <!-- Elementos qualificados -->
+  <dcterms:created>2021-10-01</dcterms:created>
+  <dcterms:issued>2021-11-10</dcterms:issued>
+  <dcterms:modified>2022-01-05</dcterms:modified>
+  <dcterms:abstract>Este artigo discute as características do povoamento rural em Portugal entre os séculos IX e XII.</dcterms:abstract>
+  <dcterms:spatial>Beira Interior</dcterms:spatial>
+  <dcterms:temporal>Idade Média</dcterms:temporal>
+  <dcterms:contributor>João Ferreira</dcterms:contributor>
+  <dcterms:isPartOf>Revista de Estudos Históricos</dcterms:isPartOf>
+  <dcterms:hasVersion>2.0</dcterms:hasVersion>
+  <dcterms:bibliographicCitation>Silva, Maria. (2021). A vida rural na Idade Média. Revista de Estudos Históricos, 12(3), 45-67.</dcterms:bibliographicCitation>
+
+  <!-- Exemplo com recurso externo (URI controlada) -->
+  <dcterms:creator rdf:resource="https://viaf.org/viaf/12345678"/>
+  
+</metadata>
